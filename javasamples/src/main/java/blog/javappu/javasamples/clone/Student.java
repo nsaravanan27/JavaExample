@@ -21,4 +21,8 @@ class Student implements Cloneable {
 	public Student clone() throws CloneNotSupportedException {
 		return (Student) super.clone();
 	}
+	
+	public String toString() {
+		return this.getName();
+	}
 }
